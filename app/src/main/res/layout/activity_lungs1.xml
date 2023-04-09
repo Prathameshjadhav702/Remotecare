@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lungs1">
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Prathamesh"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/quantity_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Enter your Heart rate"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/eye_layout"
+        app:layout_constraintTop_toBottomOf="@+id/coughperiod_layout"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Enter your Age"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="15dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/quantity_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Breathlessness"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/quantity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/breath_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/quantity_layout"
+        app:layout_constraintTop_toTopOf="@+id/quantity_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dheydration_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Dehydration"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dheydration_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/dheydration_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/dheydration_layout"
+        app:layout_constraintTop_toTopOf="@+id/dheydration_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cough_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Cough type"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cough_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/cough_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/cough_layout"
+        app:layout_constraintTop_toTopOf="@+id/cough_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/coughperiod_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Coughing period"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/coughperiod_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/coughperiod_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/coughperiod_layout"
+        app:layout_constraintTop_toTopOf="@+id/coughperiod_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/eye_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Color of eyes"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/eye_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/eye_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/eye_layout"
+        app:layout_constraintTop_toTopOf="@+id/eye_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/chest_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Chest pain type"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/chest_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/chest_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/chest_layout"
+        app:layout_constraintTop_toTopOf="@+id/chest_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/smoke_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Do you somke?"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/smoke_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/smoke_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/smoke_layout"
+        app:layout_constraintTop_toTopOf="@+id/smoke_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/respproblem_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Family History"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/famtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/fam"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/respproblem_layout"
+        app:layout_constraintTop_toTopOf="@+id/respproblem_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/occupation_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Occupation"
+        android:orientation="horizontal"
+        app:errorEnabled="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/occupation_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/occupation_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnPrimary"
+        android:popupBackground="?attr/colorPrimary"
+
+        android:scaleX="0"
+        android:scaleY="0"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@id/occupation_layout"
+        app:layout_constraintTop_toTopOf="@+id/occupation_layout" />
+
+    <Button
+        android:id="@+id/subq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonbg"
+        android:gravity="center"
+        android:text="Submit Survey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Fab_Bottom_app_bar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryVariant">#673AB7</item>
+        <item name="colorOnPrimary">#000</item>
+    </style>
+    <style name="imageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="imagePhotoRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+</resources>

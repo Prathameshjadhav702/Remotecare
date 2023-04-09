@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9D4FA"
+    tools:context=".signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:fontFamily="@font/poppins_semibold"
+    android:text="Phone Number"
+    android:textSize="16sp"
+    android:paddingStart="40dp"
+    android:paddingTop="40dp"
+    android:layout_height="wrap_content"></TextView>
+       <EditText
+           android:id="@+id/phonenumber"
+           android:layout_width="318dp"
+           android:layout_marginTop="0dp"
+           android:layout_height="54dp"
+           android:layout_gravity="center"
+           android:background="@drawable/button"
+           android:fontFamily="@font/poppins_semibold"
+           android:gravity="center"
+
+           android:textSize="16sp"
+           ></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="First Name"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="318dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+
+        android:textSize="16sp"
+        ></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Last Name"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="318dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+
+        android:textSize="16sp"
+        ></EditText>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Setpassword"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="318dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Confirm Password"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/confpass"
+        android:layout_width="318dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+
+        android:textSize="16sp"
+        ></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Address"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="318dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+
+        android:textSize="16sp"
+        ></EditText>
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="318dp"
+
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbg"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:textSize="16sp"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="By signing up, you agree to our Terms  Condition
+and agreed to Privacy  Policy"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Already a member?"
+        android:textSize="16sp"
+        android:paddingStart="40dp"
+        android:paddingTop="13dp"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="318dp"
+
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#3C2F86"
+        android:text="VERIFY"
+        android:textSize="16sp"
+        />
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

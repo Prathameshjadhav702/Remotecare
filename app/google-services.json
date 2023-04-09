@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "876095196129",
+    "firebase_url": "https://b-e-project-default-rtdb.firebaseio.com",
+    "project_id": "b-e-project",
+    "storage_bucket": "b-e-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876095196129:android:abf2f8dcd2a6d9e7c1a0a0",
+        "android_client_info": {
+          "package_name": "com.simmi.foundation.remotecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876095196129-58jlai15h5a94s7nmgppfldnqmvakhq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY_qOaOoKxWrZFvBrCnb4rvmaC8CUE9po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876095196129-58jlai15h5a94s7nmgppfldnqmvakhq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876095196129:android:447cf34416e91b6dc1a0a0",
+        "android_client_info": {
+          "package_name": "com.simmi.foundation.remotecaredoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876095196129-58jlai15h5a94s7nmgppfldnqmvakhq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY_qOaOoKxWrZFvBrCnb4rvmaC8CUE9po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876095196129-58jlai15h5a94s7nmgppfldnqmvakhq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

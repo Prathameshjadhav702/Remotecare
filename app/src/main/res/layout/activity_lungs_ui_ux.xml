@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+android:layout_marginTop="20dp"
+        android:src="@drawable/sider3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Are you feeling sick today"
+        android:textColor="?attr/colorOnBackground"
+        android:gravity="center"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="440dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Let the upcoming survey be of assistance!"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18dp"></TextView>
+
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="500dp"
+        android:paddingStart="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" Do you have your chest x-ray reports"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="15sp"></TextView>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:id="@+id/radio_btn"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Yes"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:text="No"></RadioButton>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="650dp"
+        android:layout_marginStart="300dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="#673AB7"></Button>
+</RelativeLayout>

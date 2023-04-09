@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable-v24/back.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable-v24/backgroud.xml" value="0.1485" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/bggg.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/button.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/button2.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/buttonbg.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/gradient.xml" value="0.153" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/hommee.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/ic_donate.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_doctors.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_doctors2.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_heartdeasis.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_homescreen.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_lungs1.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_lungs_ui_ux.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_lungsb4.xml" value="0.18" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_pneumonaactibity.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/drop_down.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/fragment_account2.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/fragment_lung.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/fragment_phenomia.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/heart_doctor_list.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/list_blog.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/sex.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/layout/silderlayout.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/RemoteCare/app/src/main/res/menu/item_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

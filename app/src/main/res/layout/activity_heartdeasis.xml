@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Heartdeasis">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/hearttt">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Heart Disease Prediction"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:text="Please Enter the following details :"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:text="Age:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="310dp"
+        android:inputType="number"
+        android:text=""></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:text="Sex:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/sex1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="360dp"
+
+        android:text=""></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="410dp"
+        android:text="Chest pain type:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="20dp"
+        android:text=""></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:text="trestbps(mm Hg):"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="460dp"
+        android:hint="  Resting blood pressure"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:text="Chol(mg/dl):"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="510dp"
+
+
+        android:hint="  Serum cholesterol"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="560dp"
+        android:gravity="center"
+        android:text="fbs:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="560dp"
+
+
+        android:hint="  Fasting blood sugar"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:text="thalach-maximum heart\n  rate achived:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="620dp"
+
+
+        android:hint="  Fasting blood sugar"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="680dp"
+        android:text="Slope- Peak exercise ST segment: "
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="720dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="upsloping"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="flat"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="downsloping"></RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="780dp"
+        android:background="@drawable/buttonbg"
+        android:text="Submit"></Button>
+
+</RelativeLayout>
+
+
+</ScrollView>
